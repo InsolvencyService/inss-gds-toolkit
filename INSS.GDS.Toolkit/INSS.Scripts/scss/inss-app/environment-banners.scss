@@ -1,0 +1,33 @@
+﻿.inss-app--app-environment {
+    text-align: center;
+    line-height: 2.5;
+    font-family: Verdana;
+    font-size: medium;
+}
+
+.inss-app--app-environment--local-dev {
+    background: orange;
+    color: black;
+}
+
+.inss-app--app-environment--dev {
+    background: yellow;
+    color: black;
+}
+
+.inss-app--app-environment--sit {
+    background: #ffcc00;
+    color: black;
+}
+
+.inss-app--app-environment--pp {
+    background: #e60000;
+    color: white;
+}
+
+.inss-app--app-environment--prod {
+    background: red;
+    color: white;
+    display: none !important;
+    visibility: hidden !important;
+}

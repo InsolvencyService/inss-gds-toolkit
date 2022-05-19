@@ -1,0 +1,23 @@
+﻿@{
+    var environmentBannerLocalDev = "Local development Environment - Do Not Enter Personal Data";
+    var environmentBannerDev = "Development Environment - Do Not Enter Personal Data";
+    var environmentBannerSIT = "Integration Test Environment - Do Not Enter Personal Data";
+    var environmentBannerPP = "Pre-production Test Environment - Do Not Enter Personal Data";
+    var environmentBannerProd = "Production Environment";
+}
+
+<div class="inss-app--app-environment inss-app--app-environment--local-dev">
+    @Html.Label(@environmentBannerLocalDev)
+</div>
+<div class="inss-app--app-environment inss-app--app-environment--dev">
+    @Html.Label(@environmentBannerDev)
+</div>
+<div class="inss-app--app-environment inss-app--app-environment--sit">
+    @Html.Label(@environmentBannerSIT)
+</div>
+<div class="inss-app--app-environment inss-app--app-environment--pp">
+    @Html.Label(@environmentBannerPP)
+</div>
+<div class="inss-app--app-environment inss-app--app-environment--prod">
+    @Html.Label(@environmentBannerProd)
+</div>
