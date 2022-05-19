@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "gulp-concat": "^2.6.1"
+  }
+}
